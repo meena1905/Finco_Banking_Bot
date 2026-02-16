@@ -50,20 +50,28 @@ finco-banking-bot/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/finco-banking-bot.git
+git clone https://github.com/meena1905/finco-banking-bot.git
 cd finco-banking-bot
 
-# 2. Create a virtual environment and activate it
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-
-# 3. Install dependencies
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Flask app
+# 3. Run the Flask app
 python app.py
 
-# 5. Open in your browser
+# 4. Open in your browser
 # http://127.0.0.1:5000/
+```
+## 📌 Notes
+
+- OpenAI API: The AI reply system requires an OpenAI API key. Make sure to set it in `predict.py` before running the app.  
+- SQLite Database: All complaints, ticket IDs, priorities, and employee replies are stored in `complaints.db`.  
+- Bootstrap: The frontend uses Bootstrap for responsive and clean UI design.  
+- ML Model: Complaint classification uses TF-IDF + Logistic Regression (trained model saved in `models/`).  
+- Jupyter Users: You can run the Flask app directly in Jupyter using `!python app.py` in a notebook cell.  
+- Deployment: The app is deployment-ready using Render + Gunicorn (`Procfile` included).
+
+## 🤝 Connect with Me
+
+- [LinkedIn](https://linkedin.com/in/s-meenakshi-b2356b288)  
 
