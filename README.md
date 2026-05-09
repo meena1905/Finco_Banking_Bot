@@ -71,7 +71,8 @@ python app.py
 - Jupyter Users: You can run the Flask app directly in Jupyter using `!python app.py` in a notebook cell.  
 - Deployment: The app is deployment-ready using Render + Gunicorn (`Procfile` included).
 
-## 🤝 Connect with Me
+## License
 
-- [LinkedIn](https://linkedin.com/in/s-meenakshi-b2356b288)  
+[MIT](LICENSE) — Developed by [Meenakshi](https://github.com/meena1905)
 
+---
