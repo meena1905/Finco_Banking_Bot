@@ -1,10 +1,10 @@
-# FinCo Banking Bot 🤖💰
+# FinCo Banking Bot 
 
 [Live Demo](https://finco-banking-bot.onrender.com)
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 A brief description of the project:
 - AI-powered web application for handling banking complaints.
 - Customers can submit complaints, which are automatically categorized, prioritized, and replied to using AI.
@@ -12,7 +12,7 @@ A brief description of the project:
 
 ---
 
-## 💡 Features
+##  Features
 - Complaint Classification (Account, Credit Card, Loan, etc.)
 - Priority Detection (High, Medium, Low)
 - AI-generated Responses using OpenAI LLM
@@ -24,7 +24,7 @@ A brief description of the project:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Backend: Python, Flask  
 - Machine Learning: TF-IDF + Logistic Regression  
 - AI: OpenAI API  
@@ -34,7 +34,7 @@ A brief description of the project:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 finco-banking-bot/
 ├── app.py                 
@@ -46,7 +46,7 @@ finco-banking-bot/
 └── models/               
     └── tfidf_model.pkl 
     
-## 🖥️ How to Run Locally
+##  How to Run Locally
 
 ```bash
 # 1. Clone the repository
@@ -62,7 +62,7 @@ python app.py
 # 4. Open in your browser
 # http://127.0.0.1:5000/
 ```
-## 📌 Notes
+##  Notes
 
 - OpenAI API: The AI reply system requires an OpenAI API key. Make sure to set it in `predict.py` before running the app.  
 - SQLite Database: All complaints, ticket IDs, priorities, and employee replies are stored in `complaints.db`.  
